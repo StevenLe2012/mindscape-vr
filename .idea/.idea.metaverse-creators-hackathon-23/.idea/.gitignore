@@ -2,10 +2,10 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/projectSettingsUpdater.xml
-/contentModel.xml
-/.idea.metaverse-creators-hackathon-23.iml
 /modules.xml
+/.idea.metaverse-creators-hackathon-23.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
