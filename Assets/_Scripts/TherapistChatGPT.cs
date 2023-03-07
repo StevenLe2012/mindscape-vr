@@ -1,3 +1,4 @@
+using Meta.WitAi.TTS.Utilities;
 using OpenAI;
 using TMPro;
 using UnityEngine;
@@ -9,12 +10,14 @@ namespace Therapist
     {
         public class TherapistChatGPT : MonoBehaviour
         {
+            [SerializeField] private TTSSpeaker tTSSpeaker;
+            
             [SerializeField] private TMP_Text textArea;
 
             private OpenAIApi openai = new OpenAIApi();
 
             private string userInput;
-            private string Instruction = "Act as a therapist and reply to statements.\nQ: ";
+            private string Instruction = "Act as a therapist and respond in less than 30 words. \nQ: ";
 
             public async void SendReply(string question)
             {
@@ -29,14 +32,16 @@ namespace Therapist
                 {
                     Prompt = Instruction,
                     Model = "text-davinci-003",
-                    MaxTokens = 128
+                    MaxTokens = 360
                 });
 
                 if (completionResponse.Choices != null && completionResponse.Choices.Count > 0)
                 {
-                    textArea.text = completionResponse.Choices[0].Text;
-                    Instruction += $"{completionResponse.Choices[0].Text}\nQ: ";
-                    Debug.Log(completionResponse.Choices[0].Text);
+                    var chatGPTResponse = completionResponse.Choices[0].Text;
+                    textArea.text = chatGPTResponse;
+                    tTSSpeaker.Speak(chatGPTResponse);
+                    Instruction += $"{chatGPTResponse}\nQ: ";
+                    Debug.Log(chatGPTResponse);
                 }
                 else
                 {

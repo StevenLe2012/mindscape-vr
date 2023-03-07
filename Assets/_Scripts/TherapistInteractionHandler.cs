@@ -33,7 +33,7 @@ namespace Therapist
         public class TherapistInteractionHandler : MonoBehaviour
         {
             [Header("Default States"), Multiline]
-            [SerializeField] private string freshStateText = "Try pressing the Activate button and saying \"Make the cube red\"";
+            [SerializeField] private string freshStateText = "Press ___ (currently SPACE) Button to Record Voice";
 
             [Header("UI")]
             [SerializeField] private TMP_Text textArea;
