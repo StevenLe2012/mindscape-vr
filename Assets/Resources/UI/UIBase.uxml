@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/BaseUI.uss?fileID=7433441132597879392&amp;guid=8a661fa715ff8914ca059ba99bc593de&amp;type=3#BaseUI" />
+    <ui:VisualElement name="Container" style="flex-direction: column; justify-content: flex-start;">
+        <ui:Label text="Header Text" display-tooltip-when-elided="true" class="header" />
+    </ui:VisualElement>
+</ui:UXML>

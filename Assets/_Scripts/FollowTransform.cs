@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class FollowTransform : MonoBehaviour
 {
     [SerializeField] private Transform lookAt;
     [SerializeField] private Transform transformToFolow;
@@ -27,6 +27,5 @@ public class NewBehaviourScript : MonoBehaviour
         newPosition.z = Mathf.Lerp(newPosition.z, followPosition.z, followSpeed * Time.deltaTime);
         transform.position = newPosition;
     }
-    
     
 }
