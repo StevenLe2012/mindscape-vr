@@ -40,7 +40,6 @@ namespace Companion
             {
                 Debug.DrawRay(transform.position, transform.forward * 10000, Color.red);
                 targetDistance = hitData.distance;
-                print(targetDistance);
                 //Debug.Log(targetDistance);
                 if (targetDistance > minDistance)
                 {
