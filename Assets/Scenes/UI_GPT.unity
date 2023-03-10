@@ -360,6 +360,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1516377192021685981, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
+      propertyPath: lookAt
+      value: 
+      objectReference: {fileID: 1876168851}
+    - target: {fileID: 1516377192021685981, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
+      propertyPath: followSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1516377192021685981, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
+      propertyPath: transformToFollow
+      value: 
+      objectReference: {fileID: 434588349}
     - target: {fileID: 4457508726444270976, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
       propertyPath: m_Camera
       value: 
@@ -470,6 +482,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
+--- !u!114 &1232134144 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2670676206160102125, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
+  m_PrefabInstance: {fileID: 1232134143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1389849160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -477,6 +500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7910420512598485367, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+      propertyPath: textArea
+      value: 
+      objectReference: {fileID: 1232134144}
     - target: {fileID: 7910420512734121264, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
       propertyPath: m_Name
       value: AI Managers
@@ -525,8 +552,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7910420514218404722, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+      propertyPath: OnButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910420514218404722, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+      propertyPath: OnButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1389849161}
+    - target: {fileID: 7910420514218404722, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+      propertyPath: OnButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleActivation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910420514218404733, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+      propertyPath: textArea
+      value: 
+      objectReference: {fileID: 1232134144}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+--- !u!114 &1389849161 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7910420514218404733, guid: 28a2b11dbb4c4f24c8f3897f02a2e7c2, type: 3}
+  m_PrefabInstance: {fileID: 1389849160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f04e4c56ffcee64ea0217582c62f486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1399205003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5280416514223476326, guid: 0221624aa3dad7b4f9fe2d2d2aae5c66, type: 3}
@@ -707,26 +761,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1838559214 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4457508726444270981, guid: 07fcc657247d4b04993c9309ee5e8159, type: 3}
-  m_PrefabInstance: {fileID: 1232134143}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1838559219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838559214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd23518520b2079429a3b892186bdff6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookAt: {fileID: 1876168851}
-  transformToFolow: {fileID: 434588349}
-  followSpeed: 2
 --- !u!4 &1876168851 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5280416515103371902, guid: 0221624aa3dad7b4f9fe2d2d2aae5c66, type: 3}

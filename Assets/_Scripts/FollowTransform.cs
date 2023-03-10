@@ -6,7 +6,7 @@ using UnityEngine;
 public class FollowTransform : MonoBehaviour
 {
     [SerializeField] private Transform lookAt;
-    [SerializeField] private Transform transformToFolow;
+    [SerializeField] private Transform transformToFollow;
     [SerializeField] private float followSpeed;
 
     private Transform _thisTransform;
@@ -21,7 +21,7 @@ public class FollowTransform : MonoBehaviour
         _thisTransform.LookAt(lookAt, Vector3.up);
         _thisTransform.Rotate(0f, 180f, 0f);
         var newPosition = _thisTransform.position;
-        var followPosition = transformToFolow.position;
+        var followPosition = transformToFollow.position;
         newPosition.x = Mathf.Lerp(newPosition.x, followPosition.x, followSpeed * Time.deltaTime);
         newPosition.y = Mathf.Lerp(newPosition.y, followPosition.y, followSpeed * Time.deltaTime);
         newPosition.z = Mathf.Lerp(newPosition.z, followPosition.z, followSpeed * Time.deltaTime);
