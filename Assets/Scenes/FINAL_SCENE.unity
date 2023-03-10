@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09644946, g: 0.11263986, b: 0.28861374, a: 1}
+  m_IndirectSpecularColor: {r: 0.11487954, g: 0.13581891, b: 0.3044091, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18928,6 +18928,10 @@ PrefabInstance:
       propertyPath: textArea
       value: 
       objectReference: {fileID: 2670676207383747858}
+    - target: {fileID: 3082188898583460035, guid: d3c2bdd64687e1a459e4f513e93923cf, type: 3}
+      propertyPath: witRuntimeConfiguration.minKeepAliveTimeInSeconds
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3082188899745392066, guid: d3c2bdd64687e1a459e4f513e93923cf, type: 3}
       propertyPath: m_Name
       value: AI Managers
