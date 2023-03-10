@@ -17,11 +17,10 @@ namespace Therapist
             private OpenAIApi openai = new OpenAIApi();
 
             private string userInput;
-            private string Instruction = "Act as a therapist and respond in less than 30 words. \nQ: ";
+            private string Instruction = "Act as a professional therapist that is very knowledgeable in psychotherapy and good at managing conversations with people. You will treat them systematically and respond in less than 30 words. \nQ: ";
 
             public async void SendReply(string question)
             {
-                Debug.Log("Asking ChatGPT");
                 userInput = question;
                 Instruction += $"{userInput}\nA: ";
             

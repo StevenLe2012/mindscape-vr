@@ -40,26 +40,12 @@ namespace Companion
             {
                 Debug.DrawRay(transform.position, transform.forward * 10000, Color.red);
                 targetDistance = hitData.distance;
-                //Debug.Log(targetDistance);
+                Debug.Log(targetDistance);
                 if (targetDistance > minDistance)
                 {
-                    //gameObject.GetComponent<Animation>().Play("running");  //TODO: Change to correct name
                     var newPosition = Player.transform.position;
-                    newPosition.y += 0.55f;  // padding to have NPC not in ground
+                    // newPosition.y += 0.55f;  // padding to have NPC not in ground
                     transform.position = Vector3.Lerp(transform.position, newPosition, followSpeedPercent);
-                }
-                else
-                {
-                    //gameObject.GetComponent<Animation>().Play("idle");  //TODO: Change to correct name
-    
-                }
-                
-                // checks for too far from player
-                if (targetDistance > maxDistance)
-                {
-                    var newPosition = Player.transform.position;
-                    newPosition.y += 0.55f;
-                    transform.position = newPosition;
                 }
             }
         }
