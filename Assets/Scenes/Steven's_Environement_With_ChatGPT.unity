@@ -18882,6 +18882,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5031972823102402703, guid: 7e9fa135aab9feb41aa9015a1a3853fb, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031972823102402703, guid: 7e9fa135aab9feb41aa9015a1a3853fb, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5031972823102402704, guid: 7e9fa135aab9feb41aa9015a1a3853fb, type: 3}
       propertyPath: _dropdown
       value: 
@@ -18983,7 +18991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9076697749438309673, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.63
+      value: -1.663
       objectReference: {fileID: 0}
     - target: {fileID: 9076697749438309673, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19025,9 +19033,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tablet
       objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296784, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_Name
+      value: Music Option
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296785, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296787, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: None
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296787, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Relaxing 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296787, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Relaxing 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296787, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: WhiteNoise 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697749566296787, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[4].m_Text
+      value: WhiteNoise 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9076697749566296787, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 313028655}
+    - target: {fileID: 9076697750065708267, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076697750065708267, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49b59a36f9279d4d804663d642e4e0f, type: 3}
