@@ -27,5 +27,7 @@ Thanks for checking out our project! If you have any questions or comments, feel
 ## Links
 
 Our GitHub Repo for the project is here: https://github.com/StevenLe2012/metaverse-creators-hackathon-23
+
 Our itch.io project is here: https://stevenle2012.itch.io/mindscape-vr
+
 All Metaverse Creators Hackathon 2023 Projects are here: https://itch.io/jam/mc-vr-hackathon/entries
