@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/VoiceAndChatGPTCollabTest1.unity
     guid: b362f06d0361b2e4e8c1414a18f7b68a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FINAL_SCENE.unity
     guid: 9097156a8e9f99947a14b06d0aa293c2
+  - enabled: 1
+    path: Assets/Scenes/UI_GPT.unity
+    guid: ccb3d4de41741de4aa240094edb1481d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1b00f0cfa9a7ce04a8ed644edd2efd9c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f5289dae9e717ec499cbe1f361405855, type: 2}
